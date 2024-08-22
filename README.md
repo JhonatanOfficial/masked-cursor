@@ -2,12 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-npm install
-npm install framer-motion
 
 First, run the development server:
 
 ```bash
+
+npm install
+npm install framer-motion
+
 npm run dev
 # or
 yarn dev
