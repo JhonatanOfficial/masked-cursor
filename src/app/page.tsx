@@ -1,8 +1,8 @@
-"use client"
-;
-import { useEffect, useState } from "react";
+"use client";
+import {  useState } from "react";
 import { motion } from "framer-motion"
-import { useMousePosition } from "./hooks/useMousePosition";
+import { useMousePosition } from "../hooks/useMousePosition";
+
 
 export default function Home() {
 
@@ -27,13 +27,13 @@ export default function Home() {
           <h1
             onMouseEnter={() => setMouseHover(true)}
             onMouseLeave={() => setMouseHover(false)}
-            className="text-[10rem] uppercase font-bold text-white">
-          Hello World!
+            className="text-[18vw] uppercase font-bold text-white">
+            Hello World!
           </h1>
         </motion.div>
 
         <div>
-          <h1 className="text-[10rem] uppercase font-bold">Hello World!</h1>
+          <h1 className="text-[18vw] uppercase font-bold">Hello World!</h1>
         </div>
 
       </div>
