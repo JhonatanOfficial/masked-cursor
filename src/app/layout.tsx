@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Bebas_Neue } from "next/font/google";
 import "./globals.css";
 
-export const bebasNeue = Bebas_Neue({
+const bebasNeue = Bebas_Neue({
   subsets: ['latin'],
   weight: ["400"]
 })
